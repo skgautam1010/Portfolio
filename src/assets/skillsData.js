@@ -1,19 +1,19 @@
 export const skillList = [
     {
         skillName: 'HTML',
-        skillUrl: 'https://madhavbahl.tech/portfolio-assets/html.png',
+        skillUrl: 'https://i.ibb.co/bKPnzQQ/html.png',
     },
     {
         skillName: 'CSS',
-        skillUrl: 'https://madhavbahl.tech/portfolio-assets/css.png',
+        skillUrl: 'https://i.ibb.co/5Rmc58b/css.png',
     },
     {
         skillName: 'JavaScript',
-        skillUrl: 'https://madhavbahl.tech/portfolio-assets/js.png',
+        skillUrl: 'https://i.ibb.co/F4MVk62/js.png',
     },
     {
         skillName: 'React',
-        skillUrl: 'https://madhavbahl.tech/portfolio-assets/react.png',
+        skillUrl: 'https://i.ibb.co/h7nWsmw/react.png',
     },
     {
         skillName: 'Python3',
@@ -38,5 +38,21 @@ export const skillList = [
     {
         skillName: 'Bootstrap',
         skillUrl: 'https://i.ibb.co/CJ9dwVj/bootstrap4.jpg',
+    },
+    {
+        skillName: 'C',
+        skillUrl: 'https://i.ibb.co/YLCd0wM/c-1.png',
+    },
+    {
+        skillName: 'MySql',
+        skillUrl: 'https://i.ibb.co/jwZvSLT/sql-1.png',
+    },
+    {
+        skillName: 'Git',
+        skillUrl: 'https://i.ibb.co/r6ZyC5T/git-1.png',
+    },
+    {
+        skillName: 'Ubuntu',
+        skillUrl: 'https://i.ibb.co/f2rfmMP/ubuntu-1.png',
     },
 ];
