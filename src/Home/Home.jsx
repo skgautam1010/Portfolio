@@ -12,11 +12,13 @@ class Home extends Component {
                     <h4>This is Sonu Kumar Gautam, A Full Stack Developer</h4>
                 </div>
                 <div className="head-btns">
-                    <Link to ='/about' className="btn btn-white">
+                    <a href="https://drive.google.com/file/d/1ijnEcg0uE_3Yeu7e2gAHxObUc3Mmq5du/view?usp=sharing" className="btn btn-white" 
+                    target="_blank"
+                    rel="noreferrer">
                         <p className="btn-text">
-                            Know More About Me 
+                            Check Out My Resume
                         </p>
-                    </Link>
+                    </a>
                     <Link to="/contact" className="btn btn-transparent">
                         <p className="btn-text">
                             Connect With Me
