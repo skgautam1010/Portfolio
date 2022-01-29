@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { slide as Menu } from 'react-burger-menu'
-import { Link } from 'react-router-dom';
+import { Link,withRouter} from 'react-router-dom';
 import './NavBar.css'
 
 class NavBar extends Component {
@@ -34,7 +34,11 @@ closeMenu = () => {
         const contactClass =
             location.pathname === '/contact' ? 'active-item' : '';
         return (
-            <Menu>
+            <Menu 
+            isOpen={this.state.menuOpen}
+            onStateChange={(state)=>this.handleStateChange(state)}
+            >
+
               <Link to='/' onClick ={()=>this.closeMenu()} className={`menu-item ${homeClass}`}>
                     Home
                 </Link>
@@ -53,6 +57,6 @@ closeMenu = () => {
             </Menu>
           );
     }
+    
 }
-
-export default NavBar;
+export default withRouter(NavBar);
