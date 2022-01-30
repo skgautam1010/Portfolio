@@ -4,7 +4,7 @@ import Header from './../Header/Header';
 import Footer from './../Footer/Footer';
 import aboutVector from './../assets/about_vector.png';
 import aboutAnime from './../assets/about_anime.gif';
-
+import { Link } from 'react-router-dom';
 
 const About = () => {
     return (
@@ -50,10 +50,15 @@ const About = () => {
                     </p>
                     <h2 className='about-sub-head'>Student</h2>
                     <p className='about-details'>
-                        Highly Organized and detail-oriented student and a Passionate Learner, <br></br>
-                        Skilled in developement and coding,always enthusiastic in learning new skills. <br></br>
-                        I have good understanding of Data Structures & Algorithms,DBMS,<br></br>Operating System,
-                        OOPS Concepts and other core subjects related to Computer Applications.
+                        I am highly organized and detail-oriented student,
+                        Skilled in developement and coding, always passionate in learning new skills.
+                        Do Check Out 
+                        <Link
+                            className='about-link-element'
+                            to='/projects'
+                        >
+                             &nbsp;the works carried out by me.
+                        </Link>
 
                     </p>
                     
@@ -70,8 +75,8 @@ const About = () => {
 
             <Footer
                 phrase='Check out my '
-                link='projects!'
-                toAdress='/projects'
+                link='skills!'
+                toAdress='/skills'
             />
             {/* Vector Frame! */}
             <div className='vector-frame'>
