@@ -24,7 +24,7 @@ const ProjectCard = ({
                 <h2 className='project-heading'>{projectName}</h2>
                 <p className='project-details'>{projectDescription}</p>
                 <a href={videoUrl} className='project-yt-link'>
-                    Watch More!
+                    Know More!
                 </a>
             </div>
         </div>

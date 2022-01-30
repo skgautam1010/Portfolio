@@ -5,42 +5,42 @@ export const projectsData = [
             'Do you find it difficult to name your projects or ventures? Fear not! Check out this cool name suggestion application which will help you find the best name for your next project, venture, or startup. Keep building!',
         imageUrl: 'https://madhavbahl.tech/portfolio-assets/proj1.PNG',
         videoUrl:
-            'https://www.youtube.com/playlist?list=PLGyA74h_S9NqJvvQ7-l9bUHHS6bMCkgo0',
-        projectUrl: 'http://theleanprogrammer.com/name-it/',
+            'https://github.com/skgautam1010/NameIt',
+        projectUrl: 'https://skgautam1010.github.io/NameIt/',
     },
     {
-        projectName: 'FlashType',
+        projectName: 'Typing Test',
         projectDescription:
             'Having a good typing speed will always help you as a developer! Here, I present you the typing speed test application, where you can check your typing speed (in wpm) and share the results with your friends too.',
         imageUrl: 'https://madhavbahl.tech/portfolio-assets/proj2.PNG',
         videoUrl:
-            'https://www.youtube.com/playlist?list=PLGyA74h_S9NppHNrzUSjMQbnuHS9jlAcY',
-        projectUrl: 'http://theleanprogrammer.com/flashtype/',
+            'https://github.com/skgautam1010/Typing-test',
+        projectUrl: 'https://skgautam1010.github.io/Typing-test/',
     },
     {
-        projectName: 'Flexbox Cheatsheet',
+        projectName: 'Patient Management System',
         projectDescription:
-            'A frontend web developer must know the concepts of CSS Flexbox. So here is a CSS Flexbox cheatsheet, built using CSS Flexbox. Learn the concepts of flexbox by building a cheatsheet which is built using flexbox. Super cool!',
-        imageUrl: 'https://madhavbahl.tech/portfolio-assets/proj3.PNG',
+            'It becomes quite difficult for doctors to keep the update of their patients. this application is the one stop solution. the patients can upload their data and perform all the CRUD operations. Doctors can view their patient details.',
+        imageUrl: 'https://i.ibb.co/VjxGpK1/proj3.png',
         videoUrl:
-            'https://www.youtube.com/playlist?list=PLGyA74h_S9NrkKnaIrYeOolru4EakosHY',
-        projectUrl: 'http://theleanprogrammer.com/flex/',
+            'https://github.com/skgautam1010/Patient-Information',
+        projectUrl: 'https://patient-information.herokuapp.com/',
     },
     {
-        projectName: 'PokeDex',
+        projectName: 'Music Recommendation System',
         projectDescription:
-            "Pokemon was a huge part of our childhood, wasn't it? Talking about pokemon brings back so many memories, but do you remember the details of each pokemon? Probably No! So here I bring you a pokedex to check all pokemons :)",
-        imageUrl: 'https://madhavbahl.tech/portfolio-assets/proj4.PNG',
+            "This application is mainly focused for the music lovers who wants to listen to similar types of music.the user can search for the similar music by giving their song name and they will be recommended based on the search.",
+        imageUrl: 'https://i.ibb.co/qBNPkmK/proj4.png',
         videoUrl:
-            'https://www.youtube.com/playlist?list=PLGyA74h_S9NrjM7mUiSmpKfUntwEcgMB3',
-        projectUrl: 'http://theleanprogrammer.com/pokedex/',
+            'https://github.com/skgautam1010/Music-Recommendation',
+        projectUrl: 'https://github.com/skgautam1010/Music-Recommendation',
     },
     {
-        projectName: 'Portfolio Website',
+        projectName: 'Custom T- Shirt Store',
         projectDescription:
-            'As a developer/designer, you should definitely have your own portfolio website. There are endless benefits. But, a lot of people feel that it would be tough to make one. So here I bring you a tutorial to make your own website.',
-        imageUrl: 'https://madhavbahl.tech/portfolio-assets/proj5.PNG',
-        videoUrl: 'http://theleanprogrammer.com/aam',
-        projectUrl: 'http://madhavbahl.tech/portfolio/',
+            'This store has a collection of custome t-shirts. It mainly has the tshirts which has code written on it, which is a very attractive thing to have for an engineer. so they can purchase the tshirts from our application. ',
+        imageUrl: 'https://i.ibb.co/px6tmxN/proj5.png',
+        videoUrl: 'https://github.com/skgautam1010/Tshirt-Store',
+        projectUrl: 'https://github.com/skgautam1010/Tshirt-Store',
     },
 ];
