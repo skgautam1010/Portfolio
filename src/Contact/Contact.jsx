@@ -9,12 +9,7 @@ import instagram from './../assets/in.png';
 import twitter from './../assets/twitter.png';
 import facebook from './../assets/facebook.png';
 import validator from 'validator'
-import swal from 'sweetalert';
 
-
-function message(){
-    swal("Thanks For Contacting Me!")
-}
 
 const Contact = () => {
 
@@ -40,13 +35,17 @@ const Contact = () => {
 
             {/* Form section */}
             <div className='contact-form-container'>
-                <form className='contact-form'>
+                <form 
+                className='contact-form'
+                action="https://formspree.io/f/myyoeklo"
+                method="POST"
+                >
                 
                     {/* Email Id Input */}
                     <input
                         type='email'
                         placeholder='Your Email ID'
-                        name='email'
+                        name='_replyto'
                         className='input-box email-input'
                         autoComplete='off'
                         onChange={(e) => {validateEmail(e)}}
@@ -65,7 +64,7 @@ const Contact = () => {
                     ></textarea>
 
                     {/* Submit button */}
-                    <button type='submit' className='contact-btn' onClick={message}>
+                    <button type='submit' className='contact-btn'>
                         Send Email
                     </button>
                 </form>
