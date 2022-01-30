@@ -48,6 +48,14 @@ const About = () => {
                         </a>
                         </ul>
                     </p>
+                    <h2 className='about-sub-head'>Student</h2>
+                    <p className='about-details'>
+                        Highly Organized and detail-oriented student and a Passionate Learner, <br></br>
+                        Skilled in developement and coding,always enthusiastic in learning new skills. <br></br>
+                        I have good understanding of Data Structures & Algorithms,DBMS,<br></br>Operating System,
+                        OOPS Concepts and other core subjects related to Computer Applications.
+
+                    </p>
                     
                 </div>
 
