@@ -15,6 +15,19 @@ const About = () => {
                 />
             <div className='about-main'>
                 <div className='about-main-left'>
+                <h2 className='about-sub-head'>Student</h2>
+                    <p className='about-details'>
+                        I am highly organized and detail-oriented student,
+                        Skilled in developement <br></br> and coding, always passionate in learning new skills.
+                        Do Check Out 
+                        <Link
+                            className='about-link-element'
+                            to='/projects'
+                        >
+                             &nbsp;the works carried out by me.
+                        </Link>
+
+                    </p>
                     {/* Sub section 1 */}
                     <h2 className='about-sub-head1'>Educational Qualifications</h2>
                     <h3 className='about-sub-head'>R V College Of Engineering(RVCE)</h3>
@@ -48,19 +61,7 @@ const About = () => {
                         </a>
                         </ul>
                     </p>
-                    <h2 className='about-sub-head'>Student</h2>
-                    <p className='about-details'>
-                        I am highly organized and detail-oriented student,
-                        Skilled in developement and coding, always passionate in learning new skills.
-                        Do Check Out 
-                        <Link
-                            className='about-link-element'
-                            to='/projects'
-                        >
-                             &nbsp;the works carried out by me.
-                        </Link>
-
-                    </p>
+                    
                     
                 </div>
 

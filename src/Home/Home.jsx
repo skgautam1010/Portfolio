@@ -13,8 +13,7 @@ class Home extends Component {
                 </div>
                 <div className="head-btns">
                     <a href="https://drive.google.com/file/d/1ijnEcg0uE_3Yeu7e2gAHxObUc3Mmq5du/view?usp=sharing" className="btn btn-white" 
-                    target="_blank"
-                    rel="noreferrer">
+                    >
                         <p className="btn-text">
                             Check Out My Resume
                         </p>
