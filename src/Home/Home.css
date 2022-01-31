@@ -28,6 +28,7 @@
     margin: 10px;
 }
 
+
 .header-text > h4 {
     font-family: Poppins;
     font-style: normal;
@@ -38,6 +39,14 @@
     margin: 10px;
 }
 
+
+.myimg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    clip-path: circle();
+}
 .head-btns {
     display: flex;
     flex-direction: row;
