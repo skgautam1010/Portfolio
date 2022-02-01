@@ -14,7 +14,7 @@ class Home extends Component {
                     <img src={myimg} className="myimg" alt="MyImage" />
                 </div>
                 <div className="head-btns">
-                    <a href="https://drive.google.com/file/d/1ijnEcg0uE_3Yeu7e2gAHxObUc3Mmq5du/view?usp=sharing" className="btn btn-white" 
+                    <a href="https://drive.google.com/file/d/1vTVu82al8KC5eEDJAMghYMtUMo3IvetE/view?usp=sharing" className="btn btn-white" 
                     >
                         <p className="btn-text">
                             Check Out My Resume
