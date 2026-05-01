@@ -29,7 +29,7 @@ export const skillList = [
     },
     {
         skillName: 'Java',
-        skillUrl: 'https://madhavbahl.tech/portfolio-assets/java.png',
+        skillUrl: 'https://i.ibb.co/TBgrXHDT/java.png',
     },
     {
         skillName: 'C++',
