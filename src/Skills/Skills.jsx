@@ -15,8 +15,8 @@ const Skills = () => {
             />
 
             <div className='skill-card-container'>
-                {skillList.map(({ skillName, skillUrl }) => (
-                    <SkillCard skillName={skillName} skillUrl={skillUrl} />
+                {skillList.map(({ skillName, skillUrl, altTag }) => (
+                    <SkillCard skillName={skillName} skillUrl={skillUrl} altTag={altTag} />
                 ))}
             </div>
 

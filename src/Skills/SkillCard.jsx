@@ -1,10 +1,10 @@
 import React from 'react';
 import './Skills.css';
 
-const SkillCard = ({ skillName, skillUrl }) => {
+const SkillCard = ({ skillName, skillUrl, altTag }) => {
     return (
         <div className='skill'>
-            <img src={skillUrl} alt='skill' />
+            <img src={skillUrl} alt={altTag} />
             <p>{skillName}</p>
         </div>
     );
