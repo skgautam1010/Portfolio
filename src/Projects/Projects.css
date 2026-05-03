@@ -19,8 +19,25 @@
 }
 
 .project-card:hover {
-    box-shadow: 0px 40px 50px rbga(0, 0, 0, 0.4);
+    box-shadow: 0px 40px 50px rbga(0, 0, 0, 0.15);
     transition: all 0.3s;
+}
+
+.tech-stack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 12px;
+    margin-bottom: 16px; 
+}
+
+.tech-tag {
+    background: #f0f0f0;
+    color: #444;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 4px 10px;
+    border-radius: 20px;
 }
 
 .image-container {
