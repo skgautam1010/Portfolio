@@ -3,27 +3,27 @@ export const projectsData = [
         projectName: 'E-Commerce Platform (Microservices)',
         projectDescription:
             'A production-style e-commerce backend with 6 microservices — User, Product, Order, Payment, Inventory & Notification. Uses Feign Client for synchronous calls (stock checks, payment confirmations) and Apache Kafka for async flows (inventory updates, real-time SMS/email notifications via Twilio). Each service has its own MySQL database with HikariCP pooling, secured via JWT, payments via Razorpay with webhook support, containerized with Docker Compose, and traced with Zipkin.',
-        imageUrl: 'https://i.ibb.co/VjxGpK1/proj3.png',
-        videoUrl: 'https://github.com/skgautam1010',
-        projectUrl: 'https://github.com/skgautam1010',
+        imageUrl: 'https://i.ibb.co/wNcKWJxg/temp-ecommicroservice.png',
+        videoUrl: 'https://github.com/skgautam1010/E-Commerce-Spring-Boot-Microservices',
+        projectUrl: 'https://github.com/skgautam1010/E-Commerce-Spring-Boot-Microservices',
         techStack: ['Java', 'Spring Boot', 'Kafka', 'Docker', 'MySQL', 'JWT', 'Razorpay'],
     },
     {
         projectName: 'Real-Time Human Intrusion Detection',
         projectDescription:
             'A smart CCTV surveillance system that solves the problem of continuous recording and missed alerts. Uses YOLOv5 to detect humans in live video frames and OpenCV to start/stop recording only when a human is present — saving up to 60% storage. The moment an intrusion is detected, the owner is instantly notified via SMS (Twilio API) and Email (SMTP). Built with a Flask backend, the system also supports user-configurable monitoring time windows for targeted surveillance.',
-        imageUrl: 'https://i.ibb.co/qBNPkmK/proj4.png',
-        videoUrl: 'https://github.com/skgautam1010',
-        projectUrl: 'https://github.com/skgautam1010',
+        imageUrl: 'https://i.ibb.co/btLsdrq/Screenshot-from-2026-05-04-23-32-28.png',
+        videoUrl: 'https://github.com/skgautam1010/Human-Detection-through-CCTV',
+        projectUrl: 'https://github.com/skgautam1010/Human-Detection-through-CCTV',
         techStack: ['Python', 'Flask', 'YOLOv5', 'OpenCV', 'Twilio', 'Computer Vision'],
     },
     {
         projectName: 'Image Captioning Web Application',
         projectDescription:
             'A multimodal deep learning pipeline that bridges computer vision and NLP to auto-generate image descriptions. Uses a pre-trained Xception CNN to extract high-dimensional visual features, which are decoded into grammatically correct captions by an LSTM language model. Wrapped in a Flask web app where users upload any image and instantly receive an AI-generated caption — all in real time.',
-        imageUrl: 'https://i.ibb.co/px6tmxN/proj5.png',
-        videoUrl: 'https://github.com/skgautam1010',
-        projectUrl: 'https://github.com/skgautam1010',
+        imageUrl: 'https://i.ibb.co/C5kjDhM8/image-caption-generator.png',
+        videoUrl: 'https://github.com/skgautam1010/Image-Caption-Generator',
+        projectUrl: 'https://github.com/skgautam1010/Image-Caption-Generator',
         techStack: ['Python', 'Keras', 'Flask', 'CNN', 'LSTM', 'NLP', 'TensorFlow'],
     },
     {
@@ -33,7 +33,7 @@ export const projectsData = [
         imageUrl: 'https://i.ibb.co/qBNPkmK/proj4.png',
         videoUrl: 'https://github.com/skgautam1010/Music-Recommendation',
         projectUrl: 'https://github.com/skgautam1010/Music-Recommendation',
-        techStack: [],
+        techStack: ['Python', 'Flask', 'Machine Learning'],
     },
     {
         projectName: 'Name It!',
@@ -42,7 +42,7 @@ export const projectsData = [
         imageUrl: 'https://i.ibb.co/LXZv5PRH/proj1.png',
         videoUrl: 'https://github.com/skgautam1010/NameIt',
         projectUrl: 'https://skgautam1010.github.io/NameIt/',
-        techStack: [],
+        techStack: ['ReactJs'],
     },
     {
         projectName: 'Typing Test',
@@ -51,7 +51,7 @@ export const projectsData = [
         imageUrl: 'https://i.ibb.co/8LfQm6MY/proj2.png',
         videoUrl: 'https://github.com/skgautam1010/Typing-test',
         projectUrl: 'https://skgautam1010.github.io/Typing-test/',
-        techStack: [],
+        techStack: ['ReactJs'],
     },
     {
         projectName: 'Patient Management System',
@@ -60,7 +60,7 @@ export const projectsData = [
         imageUrl: 'https://i.ibb.co/VjxGpK1/proj3.png',
         videoUrl: 'https://github.com/skgautam1010/Patient-Information',
         projectUrl: 'https://github.com/skgautam1010/Patient-Information',
-        techStack: [],
+        techStack: ['Python', 'Django', 'HTML', 'CSS', 'Javascript'],
     },
     {
         projectName: 'Custom T-Shirt Store',
@@ -69,6 +69,6 @@ export const projectsData = [
         imageUrl: 'https://i.ibb.co/px6tmxN/proj5.png',
         videoUrl: 'https://github.com/skgautam1010/Tshirt-Store',
         projectUrl: 'https://github.com/skgautam1010/Tshirt-Store',
-        techStack: [],
+        techStack: ['Python', 'Django', 'Django REST API', 'React'],
     },
 ];
