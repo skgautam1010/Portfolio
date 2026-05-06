@@ -11,7 +11,7 @@ class Home extends Component {
                 <div className="header-text">
                     <h1> Welcome To My Portfolio!</h1>
                     <h4>Sonu Kumar Gautam</h4>
-                    <h4>From enterprise platforms to AI experiments - I engineer what excites me.</h4>
+                    <h4>From enterprise platforms to AI experiments - I engineer what excites me</h4>
                     <img src={myimg} className="myimg" alt="MyImage" />
                 </div>
                 <div className="head-btns">
