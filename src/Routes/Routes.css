@@ -5,6 +5,9 @@ body{
     width: 100%;
     overflow-x: hidden;
     font-family: 'Poppins', sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 
@@ -31,4 +34,11 @@ select:focus{
         padding: 100px 0;
     }
     
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #121212;
+        color: #e0e0e0;
+    }
 }

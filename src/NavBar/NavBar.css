@@ -88,3 +88,13 @@
     visibility: visible;
     height: 3px;
 }
+
+@media (prefers-color-scheme: dark) {
+    .bm-burger-bars {
+        background: #e0e0e0;
+    }
+
+    .bm-burger-bars-hover {
+        background: #fff;
+    }
+}

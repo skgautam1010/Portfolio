@@ -36,3 +36,13 @@
         line-height: 1.2em;
     }
 }
+
+@media (prefers-color-scheme: dark) {
+    .header-container > h1 {
+        color: #e0e0e0;
+    }
+
+    .header-container > h4 {
+        color: #b0b0b0;
+    }
+}
