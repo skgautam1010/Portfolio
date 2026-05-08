@@ -39,9 +39,12 @@ const About = () => {
                     <h3 className='about-sub-head'>Epsilon (Publicis Groupe) — Software Developer 2</h3>
                     <p className='about-details'>
                         <ul>Duration : April 2024 – Present | Bengaluru, Karnataka, India</ul>
+                        <ul>Architected a dynamic content routing system in Java to serve personalized content for 2,700+ medical conditions from a single
+                        page - built on AEM using Sling Servlets and tag taxonomy, eliminating thousands of individually authored pages.</ul>
                         <ul>Implemented email delivery by building an async Java Servlet service with Sling Jobs, integrated Microsoft Graph API for PDF bill delivery, Google reCAPTCHA for bot prevention, and Mailchimp API for subscriber management.</ul>
-                        <ul>Designed REST API-backend clinic search integrating OneMap API to fetch geolocations and compute distances across 1,860 clinics, with multi-tier sorting.</ul>
                         <ul>Built a dynamic post-logout redirect feature for a federated banking loyalty platform — users are seamlessly returned to their originating bank's portal, with the destination resolved at runtime from their SAML identity token rather than a hardcoded URL.</ul>
+                        <ul>Built a bulk import/export tool enabling Excel-based content management - onboarded 2,000+ records via single file upload,
+                        eliminating manual authoring effort entirely.</ul>
                         <ul>Architected OSGi-configured scheduler pipeline to archive/purge 5,000+ content records with configurable business-rule exclusions and asset cleanup — reduced manual maintenance effort by 70%.</ul>
                         <ul>Engineered content migration via Java Servlets, reducing manual effort by 80% and increasing throughput by 50%.</ul>
                     </p>
@@ -49,6 +52,7 @@ const About = () => {
                     <h3 className='about-sub-head'>Epsilon (Publicis Groupe) — Software Developer 1</h3>
                     <p className='about-details'>
                         <ul>Duration : Aug 2022 – March 2024 | Bengaluru, Karnataka, India</ul>
+                        <ul>Designed REST API-backend clinic search integrating OneMap API to fetch geolocations and compute distances across 1,860 clinics, with multi-tier sorting.</ul>
                         <ul>Enhanced reusable backend components, reducing feature delivery time by 40%.</ul>
                         <ul>Developed cookie consent service ensuring 100% regulatory compliance.</ul>
                         <ul>Resolved all critical/high CVEs from Veracode SAST/DAST scans — zero re-opened issues post-fix.</ul>
